@@ -38,6 +38,4 @@ module.exports = {
       directory: path.join(__dirname, 'dist'),
     },
   },
-  watch: true,
-  target: 'web',
 };
