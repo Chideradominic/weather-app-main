@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="container">
+  <div id="header">
+    <h1>Weather App</h1>
+    <div class="Search-input">
+    <input type="text" name="Search" id="locationInput" placeholder="Enter city name"spellcheck="false">
+    <button id="searchButton"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+    </svg>
+  </button>
+  </div>
+  <div class="buttons">
+    <button id="celsius"><sup>o</sup>C/kh</button>
+    <button id="fahrenheit"><sup>o</sup>F/mh</button>
+  </div>
+  </div>
+  <div class="weather">
+  <p id="country">Nigeria</p>
+  <p id="countryDate">Tue, Jul 16, 2024</p>
+  <div class="temperature">
+    <img src="./images/rain.png" alt="clouds">
+  <p id="degreeOfWeather">82.3°F</p>
+  <p id="weatherStats">Partially cloudy</p>
+  </div>
+  <div id="details">
+  <div class="col">
+    <img id="humidityImage" src="./images/humidity.png">
+    <div>
+    <p id="humidity">50%</p>
+    <p id="weatherStats">Humidity</p>
+  </div>
+  </div>
+  <div class="col">
+    <img id="windImage" src="./images/wind.png">
+    <div>
+    <p id="wind">15km/h</p>
+    <p id="weatherStats">Wind speed</p>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+</body>
+</html>

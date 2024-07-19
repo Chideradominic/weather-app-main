@@ -1,0 +1,73 @@
+body{
+  font-family:  'Poppins',sans-serif;
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+  box-sizing: border-box;
+  background: #ff7e5f;
+  background: linear-gradient(90deg, #00feba, #5b548a);
+}
+svg{
+  fill: white;
+}
+#header{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+#header h1{
+  color: white;
+}
+
+button{
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #021822;
+  color: white;
+  border: 1px white solid;
+  width: 80px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+input{
+  background-color: #021822;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px white solid;
+  color: white;
+  font-size: 1.5rem;
+  width: 300px;
+  text-align: center;
+}
+button:hover{
+ background-color: #056dc3;
+}
+.weather{
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  color: white;
+  }
+  p{
+    margin: 0;
+  }
+
+  #country{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  #details{
+    display: flex;
+    justify-content: space-between;
+  }
+  #details img{
+    width: 40px;
+  }
+  .col{
+    display: flex;
+    gap: 10px;
+  }
+  .col p{
+    text-align: left;
+  }
